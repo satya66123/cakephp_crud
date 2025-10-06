@@ -3,14 +3,14 @@ cake php 4.0+php 7.3+mysql crud
 
 # 🍰 CakePHP Simple CRUD Example (Windows CMD Setup)
 
-This is a minimal **CakePHP 4 CRUD application** for beginners.  
+This is a minimal **CakePHP 5 CRUD application** for beginners.  
 It demonstrates how to create, read, update, and delete records using the **Articles** table.
 
 ---
 
 ## 🚀 Requirements
 
-- PHP 7.4 or higher  
+- PHP 8.1 or higher  
 - Composer  
 - MySQL or MariaDB  
 - Windows CMD or PowerShell terminal
@@ -47,6 +47,8 @@ Copy code
 ],
 Create the articles table:
 
+sql
+Copy code
 USE cake_crud;
 
 CREATE TABLE articles (
@@ -59,7 +61,8 @@ CREATE TABLE articles (
 🧠 Generate CRUD Using Bake
 Use the built-in CakePHP Bake tool to generate everything automatically:
 
-
+cmd
+Copy code
 php bin\cake.php bake all Articles
 This will create:
 
