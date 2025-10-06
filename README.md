@@ -107,8 +107,8 @@ You can also use bin\cake.bat (on Windows) instead of php bin\cake.php.
 To rebuild or add more tables, just update your database and run php bin\cake.php bake all TableName.
 
 🧑‍💻 Author
-Created by Satya Nani
-Contact: satyasrinath6@gmail.com
+Created by Satya Srinath
+Contact: satyasrinath666@gmail.com
 
 🪶 License
 This project is open-source and free to use for learning or demonstration purposes.
